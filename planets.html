@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Space Carousel</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <div class="title">Exoplanets</div>
+
+    <div class="carousel-wrapper">
+        <div class="carousel">
+            <div class="carousel-item active" id="item-0" data-name="LHS 1140b">
+                <img src="img/9.png" alt="LHS 1140b">
+                <div class="info">
+                    <h2>LHS 1140b</h2>
+                </div>
+            </div>
+        
+            <div class="carousel-item" id="item-2" data-name="Kepler-186f">
+                <img src="img/2.png" alt="Kepler-186f">
+                <div class="info">
+                    <h2>Kepler-186f</h2>
+                </div>
+            </div>
+            <div class="carousel-item" id="item-3" data-name="Kepler-452b">
+                <img src="img/3.png" alt="Kepler-452b">
+                <div class="info">
+                    <h2>Kepler-452b</h2>
+                </div>
+            </div>
+            <div class="carousel-item" id="item-4" data-name="Osiris (HD 209458b)">
+                <img src="img/4.png" alt="Osiris (HD 209458b)">
+                <div class="info">
+                    <h2>Osiris (HD 209458b)</h2>
+                </div>
+            </div>
+            <div class="carousel-item" id="item-5" data-name="Gliese 581g">
+                <img src="img/6.png" alt="Gliese 581g">
+                <div class="info">
+                    <h2>Gliese 581g</h2>
+                </div>
+            </div>
+            <div class="carousel-item" id="item-6" data-name="51 Pegasi b">
+                <img src="img/7.png" alt="51 Pegasi b">
+                <div class="info">
+                    <h2>51 Pegasi b</h2>
+                </div>
+            </div>
+            <div class="carousel-item" id="item-7" data-name="WASP-17b">
+                <img src="img/8.png" alt="WASP-17b">
+                <div class="info">
+                    <h2>WASP-17b</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <button class="carousel-button left-button" onclick="prevSlide()">&#10094;</button>
+    <button class="carousel-button right-button" onclick="nextSlide()">&#10095;</button>
+
+    <div id="planet-info" class="planet-info"></div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
